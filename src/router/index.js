@@ -4,7 +4,7 @@ import {
 } from 'vue-router'
 import Home from '/src/components/Home.vue'
 const routes = [{
-    path: '/',
+    path: '/vue-fancy-name-generator/',
     name: 'Home',
     component: Home,
     meta: {
