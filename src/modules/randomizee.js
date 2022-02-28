@@ -1,5 +1,5 @@
 var name3 = "";
-var max_name_length1 = 14;
+var max_name_length1 = 50;
 var name_gen_index = 0;
 const generated_names = new Array();
 var achar321 = "ÃÅÂA卂ﾑÄA丹a"
@@ -147,11 +147,11 @@ function Randomizee(name) {
     }
     var name2 = name.toString();
     if (name2.length < max_name_length1 - 1) {
-        if (name2.length <= max_name_length1 - 7 && randomm() == 1) {
+        if (name2.length <= max_name_length1 - 25 && randomm() == 1) {
             var startt = startchar321[Math.floor(Math.random() * startchar321.length)].toString();
             var spacee = spacechar321[Math.floor(Math.random() * spacechar321.length)].toString();
             name = startt.concat(spacee, name)
-        } else if (name2.length > max_name_length1 - 7 && randomm() == 1 && randomm() == 0) {
+        } else if (name2.length > max_name_length1 - 25 && randomm() == 1 && randomm() == 0) {
             var startt = startchar432[Math.floor(Math.random() * startchar432.length)].toString();
             var spacee = spacechar432[Math.floor(Math.random() * spacechar432.length)].toString();
             name = startt.concat(spacee, name)

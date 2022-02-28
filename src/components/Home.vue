@@ -6,7 +6,7 @@
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center">
             <div class="flex-shrink-0">
-              <span class="text-gray-900 font-bold"><span class="text-indigo-300">Fancy</span> <span
+              <span class="text-gray-900 font-bold"><span class="text-indigo-300">BGMI</span> <span
                   class="text-indigo-500">Name</span> <span class="text-indigo-700">Generator</span></span>
             </div>
             <div class="hidden md:block">
@@ -53,7 +53,7 @@
     <header class="bg-indigo-500 pt-16 text-white">
       <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <h1 class="text-3xl font-bold">
-          Fancy Name Generator
+          BGMI Name Generator
         </h1>
       </div>
     </header>
@@ -68,7 +68,7 @@
          mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000"></div>
         <div class="shadow-xl mx-6  p-5 rounded-xl border relative bg-white">
           <h2 class="text-indigo-500 font-bold text-md flex">
-            <BeakerIcon class="block h-6 w-6 mr-3" aria-hidden="true" /> Generate a Random Name</h2>
+            <BeakerIcon class="block h-6 w-6 mr-3" aria-hidden="true" /> BGMI Name Generator</h2>
           <div class="px-4 py-6">
             <transition name="fade" mode="out-in">
               <div class="bg-gray-100 px-2 pt-6 pb-4 rounded-xl text-indigo-500 text-xl text-center relative"
@@ -86,8 +86,8 @@
                 <span
                   class="inline-flex items-center justify-center px-3 py-2 text-xs font-bold leading-none text-indigo-100 bg-indigo-600 rounded-full">{{charactersLeft}}</span>
               </div>
-              <label for="fancy" class="hidden">Fancy</label>
-              <input autocomplete="" type="text" maxlength="14" pattern="[a-zA-Z0-9-]"
+              <label for="fancy" class="hidden">BGMI</label>
+              <input autocomplete="" type="text" maxlength="50" pattern="[a-zA-Z0-9-]"
                 class="mt-6 shadow block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 id="fancy" name="fancy" placeholder="Enter your Name here..." v-model="name"
                 v-on:keypress="isAllowed($event)">
@@ -160,7 +160,7 @@
 
   const navigation = ["Dashboard"];
   const routes = ["/"];
-  const maxCharacters = 14;
+  const maxCharacters = 50;
 
   export default {
     components: {

@@ -4,11 +4,14 @@ import {
 } from 'vue-router'
 import Home from '/src/components/Home.vue'
 const routes = [{
-    path: '/vue-fancy-name-generator/',
+    //
+    // Change PATH to MATCH vite.config.js
+    //
+    path: '/bgmi-name-generator/', // PATH
     name: 'Home',
     component: Home,
     meta: {
-        title: 'Home - Fancy Name Generator',
+        title: 'Home - BGMI Name Generator',
         metaTags: [{
                 name: 'description',
                 content: 'Random Name Generator'

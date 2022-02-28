@@ -15,7 +15,7 @@ app.use(Router);
 
 app.use(VueGtag, {
   property: {
-    id: "GTM-WT94C3K"
+    id: ""
   }
 });
 
